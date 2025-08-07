@@ -15,7 +15,7 @@
       "description": "Development server"
     },
     {
-      "url": "https://your-production-url.com/api",
+      "url": "https://nightprep-bn.onrender.com/api",
       "description": "Production server"
     }
   ],
