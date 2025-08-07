@@ -116,14 +116,11 @@ server/
 ### Environment Variables (.env)
 ```env
 # MongoDB Connection
-MONGO_URI=mongodb://localhost:27017/nightprep
-# OR: mongodb+srv://username:password@cluster.mongodb.net/nightprep
+MONGO_URI=
 
-# JWT Secret (use a strong random string)
-JWT_SECRET=your_super_secret_jwt_key_here
+JWT_SECRET=
 
-# Server Port
-PORT=5000
+PORT=
 ```
 
 ### Database Schema
@@ -135,9 +132,7 @@ The application uses a single User model that includes:
 
 ## 🧪 Testing
 
-### Using Postman
-1. Import `NightPrep_API.postman_collection.json`
-2. Set `baseUrl` variable to `http://localhost:5000/api`
+2. `http://localhost:5000/api-docs`
 3. Register/login to get JWT token (automatically saved)
 4. Test all endpoints with authentication
 
